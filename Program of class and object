@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+class car{
+public:
+string color;
+float price;
+void theame(){
+cout<<"color of car="<<color<<endl;
+}
+void cost(){
+cout<<"price of car="<<price<<endl;
+}
+};
+int main(){
+car c1,c2;
+c1.color="RED";
+c2.color="BLUE";
+c1.price=200000.00;
+c2.price=300000.00;
+
+c1.theame();
+c1.cost();
+c2.theame();
+c2.cost();
+return 0;
+}
